@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <a href="/"><li>Hjem</li></a>
+                <a href="omos"><li>About</li></a>
+                <a href="/contact"><li>Kontakt</li></a>
+                <a href="/continents"><li>Kontinent</li></a>
+            </ul>
+        </nav>
+        <div id="logo">
+            <h2>LOGO</h2>
+        </div>
+    </header>
+    <h1>{title}</h1>
+    <p>Welcome to {title}</p>
+    <p>Test med viewengine Dust</p>
+    <p>Folderstruktur Dust</p>
+    <img src="/images/Screenshot.png">
+    <video width="320" height="240" controls>
+      <source src="videojuice.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <p>PUG har en layout.pug fil til f.eks at kode navigation.</p>
+    <p>Dust har ikke den mulighed.</p>
+
+    <link href='/javascripts/script.js' />
+  </body>
+</html>

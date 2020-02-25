@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{title}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <a href="/"><li>Hjem</li></a>
+                <a href="/omos"><li>About</li></a>
+                <a href="/contact"><li>Kontakt</li></a>
+                <a href="/continents"><li>Kontinent</li></a>
+            </ul>
+        </nav>
+        <div id="logo">
+            <h2>LOGO</h2>
+        </div>
+
+    </header>
+    <h1>{title}</h1>
+    <h3>Welcome to {title}</h3>
+
+
+      <p>{obj.Antarctica}</p>
+
+      <p>{obj.Africa}</p>
+
+      <p>{obj.Asia}</p>
+
+      <p>{obj.Europe}</p>
+
+      <p>{obj.Oceania}</p>
+
+      <p>{obj.NorthAmerica}</p>
+
+      <p>{obj.SouthAmerica}</p>
+
+
+  </body>
+</html>
